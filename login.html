@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>login</title>
+    <style type="text/css">
+	body {
+	background-color:orange;
+	color:white;
+	}
+
+   
+</style>
+<script>
+
+//function openly()
+//{
+ // open("adminsection.html");
+//}
+function msg()
+{
+  open("librarysection.html");
+}
+</script>
+</head>
+<body>
+<div style=" margin-left:-5px;  width:100%;  " >
+    
+    <marquee behavior="alternate" direction="vertical" onmouseover="this.stop();" onmouseout="this.start();" >
+    <img src="Central-Library-IIT2.jpg"style="height:200px; width:200px;"/>
+<img src="narender-library-rohini-sector-7-delhi-a40le.jpg"style="height:200px; width:200px;"/>
+<img src="library-management-system-by-mlmAGE.com.jpg"style="height:200px; width:200px;"/>
+<img src="library-management-system-1-638.jpg" style="height:200px; width:200px;"/>
+<img src="Libraries-1170x316_c.jpg" style="height:200px; width:200px;"/>
+    </marquee>
+</div >
+
+    <h1 style="color:black; margin-left:  75px;">  admin login section</h1>
+<form  action="login" method="post">
+    <div style=" margin-left:25px; height:100%; width:50%;  ">
+    <pre>
+ <strong> Username</strong>   :                    <input  type="text" name="name"size="25" maxlength="20" placeholder="enter name here" style=" font-weight:bolder;" />                                    
+
+
+<strong> Password</strong>:                    <input type="password" name="pword" size="24" maxlength="15" placeholder="enter password here" style=" font-weight:bold;" />                                      
+
+                             
+                  <input type="submit" name="submit" value="login" style=" font-weight:bold; background:blue; border-radius:5px; border:2px solid #3B6E22 color:white; font-size:20px;"  >
+
+
+                                                                                     					 
+</pre>
+        </div>
+    </form>
+
+
+
+<h1 style="color:black; margin-left:  75px;"> librarian login</h1>
+<form action="libr_login" method="post">
+    <div style=" margin-left:25px; height:100%; width:50%;  ">
+    <pre>
+<strong>Username</strong>      :         <input  type="text" name="uname"size="25" maxlength="20" placeholder="enter name here" style=" font-weight:bold;" />
+     
+
+<strong>Password</strong>      :          <input type="password" name="pass" size="24" maxlength="15" placeholder="enter password here" style=" font-weight:bold;" />
+                                 
+ 
+                 <input type="submit" name="submit" value="login" style=" font-weight:bold; background:blue; border-radius:5px; border:2px solid #3B6E22 color:white; font-size:20px;" onclick="msg()" >
+
+
+    </pre>	
+        </div>
+</form>	
+
+
+</body>
+</html>
